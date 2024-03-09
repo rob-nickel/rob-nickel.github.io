@@ -10,20 +10,19 @@ function App() {
 			<nav class="navbar background">
 				<ul class="nav-list">
 					<div class="logo">
-						<img src={headshot}
-						/>
+						<img src={headshot}/>
 					</div>
 					<li>
-						<a href="#courses">Page 1</a>
+						<a href="#AboutMe">About Me</a>
 					</li>
 					<li>
-						<a href="#tutorials">Page 2</a>
+						<a href="#Technical">Tact for Technical</a>
 					</li>
 					<li>
-						<a href="#jobs">Page 3</a>
+						<a href="#Persuasion">Prowess in Persuasion</a>
 					</li>
 					<li>
-						<a href="#student">Page 4</a>
+            <a href="mailto:RobertRNickel@gmail.com?subject=Let's Connect!">Get in Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -90,7 +89,7 @@ function App() {
 			</section>
 			<footer className="footer">
 				<p className="text-footer">
-					Copyright ©-All rights are reserved
+					Copyright © - All rights reserved
 				</p>
 			</footer>
 		</div>
