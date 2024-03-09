@@ -3,13 +3,14 @@
 import React from "react";
 import "./App.css";
 import headshot from "./headshot.jpeg"
+import logo from "./Logo.png"
 
 function App() {
 	return (
 		<div>
 			<nav class="navbar background">
 				<ul class="nav-list">
-					<div class="logo">
+					<div class="headshot">
 						<img src={headshot}/>
 					</div>
 					<li>
@@ -88,9 +89,20 @@ function App() {
 				</div>
 			</section>
 			<footer className="footer">
-				<p className="text-footer">
-					Copyright © - All rights reserved
-				</p>
+        <div>  
+          <div class="inline-block-child">
+            <div class="footer-space"></div>
+          </div>
+          <div class="inline-block-child">
+            <div class="logo">
+              <img src={logo}/>
+            </div>
+			  	</div>
+          <div class="inline-block-child">
+            <p className="text-footer">
+            </p>
+          </div>
+        </div>  
 			</footer>
 		</div>
 	);
